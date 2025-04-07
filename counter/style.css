@@ -1,0 +1,56 @@
+/* Title style */
+#name {
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 20px; /* Optional spacing from counter */
+}
+
+/* The big counter number */
+#counterlabel {
+    display: block;
+    text-align: center;
+    font-size: 7em;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 20px; /* Spacing before buttons */
+}
+
+/* The box around the counter and buttons */
+#thecounter {
+    border: 4mm ridge rgba(26, 39, 44, 0.5);
+    padding: 30px 40px;
+    display: inline-block;    /* Shrinks to fit the content */
+    margin: 0 auto;           /* Center horizontally (with block parent) */
+    text-align: center;
+}
+
+/* Center the whole counter box on the screen */
+body {
+    text-align: center;
+    margin-top: 50px; /* Optional: vertical spacing */
+}
+
+/* Buttons container (optional) */
+#btcontainer {
+    text-align: center;
+    margin-top: 20px; /* space above buttons */
+}
+
+/* Button style */
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px; /* spacing between buttons */
+}
+
+/* Button hover effect */
+.buttons:hover {
+    background-color: #555;
+}
